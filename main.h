@@ -11,5 +11,5 @@ extern char **environ;
 int prompt(void);
 extern char *command;
 int printEnvironment(void);
-int execute_command(char *command);
+int exec(void);
 #endif
