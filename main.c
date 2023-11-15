@@ -27,14 +27,6 @@ int main(void)
 		{
 			continue;
 		}
-		if (strcmp(command, "exit") == 0)
-		{
-			exit(EXIT_SUCCESS);
-		}
-		if (strcmp(command, "env") == 0)
-		{
-			printEnvironment();
-		}
 		exec();
 	}
 	free(command);
