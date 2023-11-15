@@ -35,7 +35,7 @@ int main(void)
 		{
 			printEnvironment();
 		}
-		execute_command(command);
+		exec();
 	}
 	free(command);
 	return (0);
